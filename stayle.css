@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1440px;
+    height: 800px;
+}
+.container-1 {
+    background: #FFFFFF;
+}
+.quotes {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 260px;
+    top: 214px;    
+    z-index: -10;
+}
+.curve {
+    position: absolute;
+    width: 610px;
+    height: 150.94px;
+    left: 0px;
+    top: 649.06px;
+    z-index: -10;
+}
+.bg {
+    position: absolute;
+    left: 670px;
+    top: 50px;
+    z-index: -10;
+}
+.tanya {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 735px;
+    top: 113px;    
+}
+.john {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 735px;
+    top: 113px;    
+}
+
+.p-1 {
+    position: absolute;
+    width: 635px;
+    height: 220px;
+    left: 165px;
+    top: 278px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 44px;    
+    color: #202047;    
+}
+.p-2 {
+    position: absolute;
+    height: 38px;
+    left: 165px;
+    right: 48.3%;
+    top: 530px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #202047;    
+}
+.p-3 {
+    position: absolute;
+    height: 38px;
+    left: 312px;
+    right: 0%;
+    top: 530px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #B9B9CE;    
+}
+.btn {
+    position: absolute;
+    z-index: 20;
+    width: 112px;
+    height: 56px;
+    top: 625px;
+    left: 797px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+    border-radius: 28px;
+}
+.prev {
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 8px;
+    height: 16px;
+}
+.next {
+    margin-top: 20px;
+    margin-left: 48px;
+    width: 8px;
+    height: 16px;
+}
+@media screen and (max-width: 376px) {
+    body {
+        width: 375px;
+        height: 667px;
+    }
+    .bg {
+        width: 326.5px;
+        height: 307.5px;
+        left: 24px;
+        top: 24px;
+    }
+    .quotes {
+        width: 60px;
+        height: 50px;
+        left: 158px;
+        top: 364px;    
+    }    
+    .curve {
+        width: 285px;
+        height: 72px;
+        top: 594.95px;
+    }
+    .tanya {
+        width: 254px;
+        height: 253px;
+        left: 61px;
+        top: 54px;    
+    }
+    .john {
+        width: 254px;
+        height: 253px;
+        left: 61px;
+        top: 54px;    
+    }
+    .p-1 {
+        width: 311px;
+        height: 144px;
+        left: 32px;
+        top: 389px;    
+        font-size: 18px;
+        line-height: 24px;   
+        text-align: center;
+    }
+    .p-2 {
+        width: 106px;
+        height: 20px;
+        left: 135px;
+        top: 552px;    
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .p-3 {
+        height: 20px;
+        left: 141px;
+        top: 572px;    
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .btn {
+        width: 80px;
+        height: 40px;
+        top: 287px;
+        left: 148px;
+    }
+    .prev {
+        margin-top: 14.29px;
+        margin-left: 17.14px;
+        width: 5.71px;
+        height: 11.43px;
+    }
+    .next {
+        margin-top: 14.29px;
+        margin-left: 34.29px;
+        width: 5.71px;
+        height: 11.43px;
+    }
+    #id-6 {
+        left: 88px;
+    }
+    
+}
+.next2{
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+}
